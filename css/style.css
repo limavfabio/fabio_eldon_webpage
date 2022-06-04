@@ -3,19 +3,22 @@
     background-color: #fefee3;
 }
 
+
+
 #header {
     display: flex;
     padding-left: 50px;
     background-color: #fefee3;
     margin-top: 0;
-    position: sticky;
+    position: fixed;
+    width: 95%;
 }
  #nav-bar {
-     gap: 20px;
-     display: flex;
-     margin-left: auto;
-     margin-right: 50px;
-
+    gap: 20px;
+    display: flex;
+    margin-right: 50px;
+    align-self: center;
+    margin-left: auto;
  }
 
 #form {
@@ -23,6 +26,7 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    padding-top: 70px;
 }
 
 button {
@@ -35,3 +39,52 @@ background-color: yellow;
     height: auto;
 }
 
+#about .feature-box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 60%;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
+
+#pricing {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+#pricing .box {
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    border-color: red;
+    border-style: solid;
+    align-items: center;
+
+}
+
+#pricing .left-box, .right-box{
+    width: 400px;
+}
+
+#pricing .box .title {
+    background-color: bisque;
+    width: 100%;
+
+}
+
+#contact {
+    display: flex;
+    padding: 30px;
+    gap: 100px;
+    background-color: rgb(54, 54, 54);
+    color: #fefee3;
+}
+
+#contact .telefone, .adress {
+    background-color: rgb(54, 54, 54);
+}
